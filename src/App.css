@@ -1,57 +1,22 @@
-
-.aurora-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 200vh;
-  z-index: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.canvas{
-    height: 130%;
-}
-
+/* whole body  */
 body {
-  background-color: #000;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
 
-/* .app-wrapper {
-  position: relative;
-  z-index: 1;
-  padding: 2rem;
+.app-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
   justify-content: center;
-} */
+}
 
 
-/* .blur-wrapper {
-  text-align: center;
-} */
-
+ /* blur text  */
 .blur-text {
   font-size: 5.5rem;
   font-weight: 900;
-  color: #e0d341;
-  /* -webkit-text-stroke: 2px #9f9f9f; */
+  color: #ffb520;
+  padding: -100;
 }
-
-
-/* .split-wrapper {
-  text-align: center;
-} */
-
-.split-text {
-  font-size: 5rem;
-  font-weight: 600;
-  color: #3ca63a;
-}
-
-

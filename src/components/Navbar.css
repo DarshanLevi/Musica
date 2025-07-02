@@ -1,10 +1,17 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: #f0f0f0; /* Light gray background */
-  border-bottom: 1px solid #ddd;
+  /* align-items: center; */
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  background-color: #ffffff06;
+}
+
+.logo-img {
+  width: 32px;
+  height: 32px;
 }
 
 .navbar-logo {
@@ -12,6 +19,12 @@
   font-weight: 700;
 }
 
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
 .navbar-links {
   list-style: none;
   display: flex;

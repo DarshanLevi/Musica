@@ -1,0 +1,31 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.blur-wrapper {
+  padding: 0;
+}
+
+.wrap-1 {
+    display: flex;
+    gap: 14px;
+}
+
+.wrap-2 {
+    display: flex;
+    gap: 14px;
+}
+
+.blur-text-color {
+  color: rgb(81, 81, 81);
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.blur-text {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}

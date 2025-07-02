@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^10.4.2",
+    "@react-three/fiber": "^9.1.4",
     "@syncfusion/ej2-react-buttons": "^30.1.37",
     "@syncfusion/ej2-react-navigations": "^30.1.37",
+    "animejs": "^3.2.2",
     "framer-motion": "^12.18.1",
     "gl-matrix": "^3.4.3",
     "gsap": "^3.13.0",

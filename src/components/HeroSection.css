@@ -4,8 +4,9 @@
   align-items: center;
   padding: 60px 40px;
   background: #ffffff;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 8rem;
 }
 
 .hero-content {
@@ -22,8 +23,9 @@
 .hero-subtitle {
   font-size: 16px;
   font-weight: 500;
-  color: #333;
+  color: #000000;
   margin-bottom: 20px;
+  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
 }
 
 .hero-button {

@@ -1,0 +1,55 @@
+.carousel-card {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 255px;
+  /* background-color: #121212ea; */
+  overflow: hidden;
+  padding: 7px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.carousel-card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-card-image-wrapper {
+  width: 255px;
+  padding-top: 255px;
+    border-radius: 2.6%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.carousel-card-details {
+  /* text-align: center; */
+  margin-top: 10px;
+}
+
+.carousel-card-title {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.carousel-card-artist,
+.carousel-card-date,
+.carousel-card-price {
+  font-size: 0.85rem;
+  color: #000000;
+  margin: 2px 0;
+  margin-bottom: 4px;
+}

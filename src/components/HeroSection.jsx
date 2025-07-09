@@ -5,6 +5,7 @@ import concertImage2 from "../assets/musico.png";
 import LoopingShapes from "./LoopingShapes";
 import TiltedCard from "./TiltedCard";
 
+
 const handleAnimationComplete = () => {
   console.log("Animation completed!");
 };
@@ -14,7 +15,7 @@ const HeroSection = () => {
     <>
       <section className="hero">
         <div className="hero-content">
-
+   
           <div className="app-wrapper">
             <div className="wrap-1">
               <div className="blur-wrapper">

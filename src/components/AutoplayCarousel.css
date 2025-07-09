@@ -1,0 +1,33 @@
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+    height: auto;
+    min-height: 300px;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  /* border-color: #4b5563; */
+}
+
+.carousel-track {
+  display: flex;
+  position: relative;
+  left: 0;
+  gap: 16px;
+  width: 600%;
+  height: auto;
+  animation: slide 60s linear infinite;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}

@@ -68,16 +68,6 @@ const HeroSection = () => {
                 />
               </div>
             </div>
-            {/* <div className="blur-wrapper">
-              <BlurText
-                text="CONCERTS"
-                delay={100}
-                animateBy="words"
-                direction="top"
-                onAnimationComplete={handleAnimationComplete}
-                className="blur-text"
-              />
-            </div> */}
             <div className="blur-wrapper">
               <BlurText
                 text="MUSICA"
@@ -108,7 +98,7 @@ const HeroSection = () => {
           rotateAmplitude={22}
           scaleOnHover={1.2}
           showMobileWarning={false}
-          showTooltip={true}
+          showTooltip={false}
           displayOverlayContent={true}
           overlayContent={<p className="tilted-card-demo-text"></p>}
         />
@@ -124,7 +114,7 @@ const HeroSection = () => {
           rotateAmplitude={22}
           scaleOnHover={1.2}
           showMobileWarning={false}
-          showTooltip={true}
+          showTooltip={false}
           displayOverlayContent={true}
           overlayContent={<p className="tilted-card-demo-text"></p>}
         />

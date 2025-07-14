@@ -1,6 +1,7 @@
 import Navbar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import TrendingAndStepsSection from "./components/TrendingAndStepsSection";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -10,7 +11,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <TrendingAndStepsSection />
-      {/* You can add more sections here */}
+      <Footer />
     </div>
   );
 }

@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   gap: 10.5px;
+  margin-top: 2rem;
 }
 
 .loop-design {
@@ -54,15 +55,48 @@
   display: none;
 }
 
-/* Steps Section */
 .steps-section h2 {
   font-size: 1.75rem;
   margin-bottom: 2rem;
   text-align: center;
 }
 
-/* .steps-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-} */
+.fadeItem-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.fade-item {
+  max-width: 320px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.plus-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  justify-content: center;
+}
+
+.count-up-text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.plus {
+  font-size: 2.5rem;
+  color: #fcb900;
+  font-weight: 800;
+}

@@ -2,7 +2,7 @@ import "./HeroSection.css"; // optional, see styles below
 import BlurText from "./BlurText";
 import concertImage from "../assets/cugai.jpg";
 import concertImage2 from "../assets/musico.png";
-
+import ClickSpark from "./ClickSpark";
 import TiltedCard from "./TiltedCard";
 
 
@@ -13,6 +13,13 @@ const handleAnimationComplete = () => {
 const HeroSection = () => {
   return (
     <>
+        <ClickSpark
+      sparkColor="rgb(229, 151, 40)"
+      sparkSize={10}
+      sparkRadius={15}
+      sparkCount={8}
+      duration={300}
+    >
       <section className="hero">
         <div className="hero-content">
    
@@ -122,6 +129,7 @@ const HeroSection = () => {
           overlayContent={<p className="tilted-card-demo-text"></p>}
         />
       </section>
+      </ClickSpark>
     </>
   );
 };

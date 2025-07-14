@@ -6,14 +6,20 @@ import RotatingText from "./RotatingText";
 import LoopingShapes from "./LoopingShapes";
 import FadeContent from "./FadeContent";
 import CountUp from "./CountUp";
+import ScrambledText from "./ScrambledText";
+import SpotlightCard from './SpotlightCard';
+import DetailCard1 from "../assets/chrisna.jpg";
+import DetailCard2 from "../assets/venue-music.png";
+import DetailCard3 from "../assets/zisha.jpg";
+import DetailCard4 from "../assets/live-music.png";
 
 const TrendingAndStepsSection = () => {
   return (
     <ClickSpark
-      sparkColor="#42c0dd"
+      sparkColor="rgb(229, 151, 40)"
       sparkSize={10}
       sparkRadius={15}
-      sparkCount={8}
+      sparkCount={12}
       duration={300}
     >
       <section className="body-section">
@@ -52,9 +58,9 @@ const TrendingAndStepsSection = () => {
         <AutoplayCarousel items={items} />
         <LoopingShapes />
 
-        <div className="steps-section">
+        {/* <div className="steps-section">
           <h2>EASY WAY TO BOOK A VIBE</h2>
-        </div>
+        </div> */}
 
         <div className="fadeItem-wrap">
           <FadeContent
@@ -64,17 +70,17 @@ const TrendingAndStepsSection = () => {
             initialOpacity={0}
           >
             <div className="fade-item">
-             Shows booked through Musica{" "}
+              Shows booked through Musica{" "}
               <div className="plus-wrap">
-              <CountUp
-                from={0}
-                to={100}
-                separator=","
-                direction="up"
-                duration={2}
-                className="count-up-text"
-              />
-              <p className="plus">+</p>
+                <CountUp
+                  from={0}
+                  to={100}
+                  separator=","
+                  direction="up"
+                  duration={2}
+                  className="count-up-text"
+                />
+                <p className="plus">+</p>
               </div>
             </div>
           </FadeContent>
@@ -88,15 +94,15 @@ const TrendingAndStepsSection = () => {
             <div className="fade-item">
               Users enjoying upfront, no-surprise pricing{" "}
               <div className="plus-wrap">
-              <CountUp
-                from={1000}
-                to={5000}
-                separator=","
-                direction="up"
-                duration={1}
-                className="count-up-text"
-              />
-              <p className="plus">+</p>
+                <CountUp
+                  from={1000}
+                  to={5000}
+                  separator=","
+                  direction="up"
+                  duration={1}
+                  className="count-up-text"
+                />
+                <p className="plus">+</p>
               </div>
             </div>
           </FadeContent>
@@ -109,21 +115,101 @@ const TrendingAndStepsSection = () => {
           >
             <div className="fade-item">
               Personalized concerts recommended daily{" "}
-            <div className="plus-wrap">
-              <CountUp
-                from={120}
-                to={1200}
-                separator=","
-                direction="up"
-                duration={1}
-                className="count-up-text"
-              />
-              <p className="plus">+</p>
+              <div className="plus-wrap">
+                <CountUp
+                  from={120}
+                  to={1200}
+                  separator=","
+                  direction="up"
+                  duration={1}
+                  className="count-up-text"
+                />
+                <p className="plus">+</p>
               </div>
             </div>
           </FadeContent>
         </div>
-        
+
+        <div className="alternating-sections">
+          <div className="alt-section">
+            <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.59)">
+            <img src={DetailCard1} alt="Concert Crowd" className="alt-img" />
+            </SpotlightCard>
+            <div className="alt-text">
+              <ScrambledText
+                className="scrambled-text-demo"
+                radius={100}
+                duration={1.2}
+                speed={0.5}
+              >
+                <h3>Feel the Crowd</h3>
+                <p>
+                  Experience electrifying concerts with thousands singing in
+                  unison under one sky.
+                </p>
+              </ScrambledText>
+            </div>
+          </div>
+
+          <div className="alt-section reverse">
+            <div className="alt-text">
+              <ScrambledText
+                className="scrambled-text-demo"
+                radius={100}
+                duration={1.2}
+                speed={0.5}
+              >
+                <h3>Book Effortlessly</h3>
+                <p>
+                  Get tickets in seconds with our streamlined, mobile-first
+                  booking system.
+                </p>
+              </ScrambledText>
+            </div>
+            <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.59)">
+            <img src={DetailCard2} alt="Booking App" className="alt-img" />
+            </SpotlightCard>
+          </div>
+
+          <div className="alt-section">
+            <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.59)">
+            <img src={DetailCard3} alt="Music Artists" className="alt-img" />
+            </SpotlightCard>
+            <div className="alt-text">
+              <ScrambledText
+                className="scrambled-text-demo"
+                radius={100}
+                duration={1.2}
+                speed={0.5}
+              >
+                <h3>Artists You Love</h3>
+                <p>
+                  From indie vibes to chart-toppers, find events that match your
+                  music taste.
+                </p>
+              </ScrambledText>
+            </div>
+          </div>
+
+          <div className="alt-section reverse">
+            <div className="alt-text">
+              <ScrambledText
+                className="scrambled-text-demo"
+                radius={100}
+                duration={1.2}
+                speed={0.5}
+              >
+                <h3>Transparent Pricing</h3>
+                <p>
+                  See the final price upfront — no surprise fees at checkout.
+                </p>
+              </ScrambledText>
+            </div>
+            <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.59)">
+            <img src={DetailCard4} alt="Pricing" className="alt-img" />
+            </SpotlightCard>
+          </div>
+        </div>
       </section>
     </ClickSpark>
   );

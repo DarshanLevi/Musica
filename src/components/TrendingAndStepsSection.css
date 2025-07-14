@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 5rem;
 }
 
 .trending-events h2 {
@@ -69,6 +69,7 @@
   margin-top: 4rem;
   padding: 0 1rem;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .fade-item {
@@ -97,6 +98,53 @@
 
 .plus {
   font-size: 2.5rem;
-  color: #fcb900;
+  color: rgb(229, 151, 40);
   font-weight: 800;
+}
+
+.alternating-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem 2rem;
+}
+
+.alt-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: row;
+}
+
+.alt-section.reverse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: row;
+}
+
+.alt-img {
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.alt-text {
+  flex: 1;
+  max-width: 500px;
+  color: #1c1c1c;
+}
+
+.alt-text h3 {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.alt-text p {
+  font-size: 1rem;
+  line-height: 1.6;
 }

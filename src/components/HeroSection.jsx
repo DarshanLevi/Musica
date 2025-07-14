@@ -2,7 +2,7 @@ import "./HeroSection.css"; // optional, see styles below
 import BlurText from "./BlurText";
 import concertImage from "../assets/cugai.jpg";
 import concertImage2 from "../assets/musico.png";
-import LoopingShapes from "./LoopingShapes";
+
 import TiltedCard from "./TiltedCard";
 
 
@@ -122,7 +122,6 @@ const HeroSection = () => {
           overlayContent={<p className="tilted-card-demo-text"></p>}
         />
       </section>
-      <LoopingShapes />
     </>
   );
 };

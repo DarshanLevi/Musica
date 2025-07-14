@@ -1,14 +1,11 @@
 .carousel-card {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  width: 255px;
-  /* background-color: #121212ea; */
-  overflow: hidden;
-  padding: 7px;
-  transition: transform 0.3s ease;
-  cursor: pointer;
+  will-change: transform;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
 }
+/* .carousel-track {
+  perspective: 1000px;
+} */
 
 .carousel-card:hover {
   transform: scale(1.05);
@@ -17,7 +14,7 @@
 .carousel-card-image-wrapper {
   width: 255px;
   padding-top: 255px;
-    border-radius: 2.6%;
+  border-radius: 2.6%;
   position: relative;
   overflow: hidden;
 }
@@ -30,7 +27,6 @@
   height: 100%;
   object-fit: cover;
 }
-
 
 .carousel-card-details {
   /* text-align: center; */

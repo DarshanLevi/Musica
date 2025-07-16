@@ -5,18 +5,23 @@
   line-height: 3.7rem;
   letter-spacing: -1px;
 }
+
 .blur-wrapper {
   padding: 0;
 }
 
-.wrap-1 {
-    display: flex;
-    gap: 14px;
+.wrap-1,
+.wrap-2 {
+  display: flex;
+  gap: 14px;
 }
 
-.wrap-2 {
-    display: flex;
-    gap: 14px;
+.blur-text {
+  color: #000000;
+  font-size: 64px;
+  font-weight: 800;
+  margin: 0;
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
 }
 
 .blur-text-color {
@@ -25,13 +30,57 @@
   font-weight: 800;
   padding-top: 2px;
   margin: 0;
-    -webkit-text-stroke: 3px rgb(81, 81, 81);
+  -webkit-text-stroke: 3px rgb(81, 81, 81);
 }
 
-.blur-text {
-  color: #000000;
-  font-size: 64px;
-  font-weight: 800;
-  margin: 0;
-    -webkit-text-stroke: 3px rgb(0, 0, 0);
+/* Responsive Styles */
+@media (max-width: 750px) {
+  .app-wrapper {
+    margin-right: 20px;
+    line-height: 2.7rem;
+  }
+
+  .blur-text {
+    font-size: 48px;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+  }
+
+  .blur-text-color {
+    font-size: 56px;
+    -webkit-text-stroke: 2px rgb(81, 81, 81);
+  }
+}
+
+@media (max-width: 500px) {
+  .app-wrapper {
+    margin-right: 10px;
+    line-height: 2.2rem;
+  }
+
+  .blur-text {
+    font-size: 36px;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  }
+
+  .blur-text-color {
+    font-size: 46px;
+    -webkit-text-stroke: 1.5px rgb(81, 81, 81);
+  }
+}
+
+@media (max-width: 250px) {
+  .app-wrapper {
+    margin-right: 4px;
+    line-height: 1.8rem;
+  }
+
+  .blur-text {
+    font-size: 28px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+  }
+
+  .blur-text-color {
+    font-size: 36px;
+    -webkit-text-stroke: 1px rgb(81, 81, 81);
+  }
 }

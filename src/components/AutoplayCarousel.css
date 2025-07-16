@@ -2,37 +2,53 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: auto;
+  padding: 2rem 1rem;
   min-height: 300px;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  /* border-color: #4b5563; */
-}
-
-.carousel-card-wrapper {
-  perspective: 300px;
-  flex-shrink: 0;
 }
 
 .carousel-track {
   display: flex;
-  position: relative;
-  left: 0;
   gap: 16px;
-  width: 600%;
-  height: auto;
-  animation: slide 60s linear infinite;
+  animation: slide 50s linear infinite;
+  will-change: transform;
 }
 
 .carousel-track:hover {
   animation-play-state: paused;
 }
 
+.carousel-card-wrapper {
+  flex-shrink: 0;
+  perspective: 600px;
+}
+
 @keyframes slide {
   0% {
-    left: 0;
+    transform: translateX(0%);
   }
   100% {
-    left: -100%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Media Query for <=750px */
+@media (max-width: 750px) {
+  .carousel-container {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .carousel-track {
+    gap: 10px;
+  }
+}
+
+/* Media Query for <=250px */
+@media (max-width: 250px) {
+  .carousel-container {
+    padding: 1rem 0.25rem;
+  }
+
+  .carousel-track {
+    gap: 8px;
   }
 }

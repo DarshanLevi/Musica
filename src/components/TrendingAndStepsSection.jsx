@@ -7,6 +7,7 @@ import LoopingShapes from "./LoopingShapes";
 import FadeContent from "./FadeContent";
 import CountUp from "./CountUp";
 import ScrambledText from "./ScrambledText";
+
 import SpotlightCard from './SpotlightCard';
 import DetailCard1 from "../assets/chrisna.jpg";
 import DetailCard2 from "../assets/venue-music.png";

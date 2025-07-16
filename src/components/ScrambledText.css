@@ -1,12 +1,33 @@
 .text-block {
-  margin: 7vw;
+  margin: 7vw auto;
   max-width: 1800px;
-  /* font-family: monospace; */
   font-size: clamp(14px, 4vw, 32px);
   color: #000000;
+  padding: 0 1rem;
+  line-height: 1.6;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .char {
   will-change: transform;
   display: inline-block;
+}
+
+/* Tablet & below */
+@media (max-width: 768px) {
+  .text-block {
+    font-size: clamp(13px, 5vw, 26px);
+    margin: 5vw auto;
+    padding: 0 0.75rem;
+  }
+}
+
+/* Ultra Mobile (250px to 300px) */
+@media (max-width: 300px) {
+  .text-block {
+    font-size: 13px;
+    margin: 4vw auto;
+    padding: 0 0.5rem;
+  }
 }

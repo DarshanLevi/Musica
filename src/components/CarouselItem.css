@@ -1,21 +1,19 @@
 .carousel-card {
-  will-change: transform;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+  transition: transform 0.3s ease;
+  width: 255px;
 }
-/* .carousel-track {
-  perspective: 1000px;
-} */
 
 .carousel-card:hover {
   transform: scale(1.05);
 }
 
 .carousel-card-image-wrapper {
-  width: 255px;
-  padding-top: 255px;
-  border-radius: 2.6%;
+  width: 100%;
+  padding-top: 100%;
   position: relative;
+  border-radius: 12px;
   overflow: hidden;
 }
 
@@ -29,7 +27,6 @@
 }
 
 .carousel-card-details {
-  /* text-align: center; */
   margin-top: 10px;
 }
 
@@ -37,8 +34,7 @@
   font-size: 1rem;
   color: #000000;
   font-weight: 600;
-  margin: 0;
-  margin-bottom: 7px;
+  margin-bottom: 6px;
 }
 
 .carousel-card-artist,
@@ -47,5 +43,38 @@
   font-size: 0.85rem;
   color: #000000;
   margin: 2px 0;
-  margin-bottom: 4px;
+}
+
+/* Media Query for <=750px */
+@media (max-width: 750px) {
+  .carousel-card {
+    width: 180px;
+  }
+
+  .carousel-card-title {
+    font-size: 0.85rem;
+  }
+
+  .carousel-card-artist,
+  .carousel-card-date,
+  .carousel-card-price {
+    font-size: 0.7rem;
+  }
+}
+
+/* Media Query for <=250px */
+@media (max-width: 250px) {
+  .carousel-card {
+    width: 100px;
+  }
+
+  .carousel-card-title {
+    font-size: 0.75rem;
+  }
+
+  .carousel-card-artist,
+  .carousel-card-date,
+  .carousel-card-price {
+    font-size: 0.55rem;
+  }
 }

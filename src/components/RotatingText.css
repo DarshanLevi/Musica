@@ -1,8 +1,15 @@
 .text-rotate {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   white-space: pre-wrap;
   position: relative;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  transition: all 0.3s ease;
 }
 
 .text-rotate-sr-only {
@@ -33,4 +40,19 @@
 
 .text-rotate-space {
   white-space: pre;
+}
+
+/* Responsive Tablet & Below */
+@media (max-width: 768px) {
+  .text-rotate {
+    font-size: 1.2rem;
+  }
+}
+
+/* Ultra-Mobile: 250px+ screens */
+@media (max-width: 300px) {
+  .text-rotate {
+    font-size: 1rem;
+    letter-spacing: -0.3px;
+  }
 }

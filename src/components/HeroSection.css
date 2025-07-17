@@ -30,7 +30,7 @@
 }
 
 .hero-button {
-  background-color: #222;
+  background-color: #908c8c;
   color: #fff;
   border: none;
   padding: 12px 20px;
@@ -40,7 +40,7 @@
 }
 
 .hero-button:hover {
-  background-color: #000;
+  background-color: #000000;
 }
 
 .hero-image img {

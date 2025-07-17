@@ -9,7 +9,7 @@
 .carousel-track {
   display: flex;
   gap: 16px;
-  animation: slide 50s linear infinite;
+  animation: slide 30s linear infinite;
   will-change: transform;
 }
 
@@ -39,6 +39,8 @@
 
   .carousel-track {
     gap: 10px;
+    animation: slide 20s linear infinite;
+    will-change: transform;
   }
 }
 
@@ -50,5 +52,7 @@
 
   .carousel-track {
     gap: 8px;
+    animation: slide 15s linear infinite;
+    will-change: transform;
   }
 }

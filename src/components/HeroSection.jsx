@@ -93,8 +93,8 @@ const HeroSection = () => {
           captionText="OSAI - Cugai"
           containerHeight="300px"
           containerWidth="300px"
-          imageHeight="330px"
-          imageWidth="300px"
+          imageHeight="320px"
+          imageWidth="285px"
           rotateAmplitude={22}
           scaleOnHover={1.2}
           showMobileWarning={false}
@@ -109,8 +109,8 @@ const HeroSection = () => {
           captionText="MUSICO - NRG"
           containerHeight="300px"
           containerWidth="300px"
-          imageHeight="400px"
-          imageWidth="300px"
+          imageHeight="380px"
+          imageWidth="285px"
           rotateAmplitude={22}
           scaleOnHover={1.2}
           showMobileWarning={false}

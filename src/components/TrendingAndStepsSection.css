@@ -161,6 +161,7 @@
 
 .loop-words {
   gap: 7px;
+  margin-top: 0.7rem;
 }
 
 .trending-events p {
@@ -224,6 +225,7 @@
 
 .loop-words {
   gap: 7px;
+  margin-top: 0.2rem;
 }
 
 .trending-events p {

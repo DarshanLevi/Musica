@@ -4,6 +4,7 @@ import concertImage from "../assets/cugai.jpg";
 import concertImage2 from "../assets/musico.png";
 import ClickSpark from "./ClickSpark";
 import TiltedCard from "./TiltedCard";
+import GlitchText from './GlitchText';
 
 
 const handleAnimationComplete = () => {

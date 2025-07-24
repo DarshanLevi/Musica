@@ -1,7 +1,7 @@
 .carousel-container {
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 98.25%;
   padding: 2rem 1rem;
   min-height: 300px;
 }
@@ -31,6 +31,13 @@
   }
 }
 
+@media (max-width: 950px) {
+  .carousel-container {
+    padding: 1.5rem 0.5rem;
+    width: 98.5%;
+  }
+
+}
 /* Media Query for <=750px */
 @media (max-width: 750px) {
   .carousel-container {

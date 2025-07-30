@@ -93,9 +93,9 @@ const HeroSection = () => {
           altText="CUGAI - GNX Album Cover"
           captionText="OSAI - Cugai"
           containerHeight="300px"
-          containerWidth="300px"
+          containerWidth="280px"
           imageHeight="320px"
-          imageWidth="285px"
+          // imageWidth="285px"
           rotateAmplitude={22}
           scaleOnHover={1.2}
           showMobileWarning={false}
@@ -109,9 +109,9 @@ const HeroSection = () => {
           altText="Musico - ORG Album Cover"
           captionText="MUSICO - NRG"
           containerHeight="300px"
-          containerWidth="300px"
+          containerWidth="280px"
           imageHeight="380px"
-          imageWidth="285px"
+          // imageWidth="285px"
           rotateAmplitude={22}
           scaleOnHover={1.2}
           showMobileWarning={false}

@@ -44,7 +44,7 @@ const TrendingAndStepsSection = () => {
                 staggerDuration={0.02}
                 splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
                 transition={{ type: "spring", damping: 30, stiffness: 1000 }}
-                rotationInterval={2500}
+                rotationInterval={1500}
               />
             </div>
           </div>

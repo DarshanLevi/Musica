@@ -41,9 +41,10 @@
 
 .trending-events p {
   text-align: center;
-  max-width: 600px;
+  max-width: 550px;
   color: #1c1c1c;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.3rem;
 }
 
 .browse-button {
@@ -164,7 +165,7 @@
 
 @media (max-width: 768px) {
  .trending-events h2 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .trending-events {
@@ -172,17 +173,19 @@
 }
 
 .loop-words {
+  padding: 10px 28px;
   gap: 7px;
   margin-top: 0.7rem;
 }
 
 .trending-events p {
-  font-size: 1rem;
+  max-width: 450px;
+  font-size: 0.8rem;
 }
 
 .browse-button {
   font-size: 13px;
-  padding: 12px 15px;
+  padding: 10px 11px;
   border-radius: 4px;
   font-weight: 700;
   cursor: pointer;
@@ -228,7 +231,7 @@
 
 @media (max-width: 300px) {
  .trending-events h2 {
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .trending-events {
@@ -236,11 +239,13 @@
 }
 
 .loop-words {
+  padding: 7px 21px;
   gap: 7px;
   margin-top: 0.2rem;
 }
 
 .trending-events p {
+  max-width: 380px;
   font-size: 0.7rem;
 }
 

@@ -48,11 +48,12 @@ const TrendingAndStepsSection = () => {
               />
             </div>
           </div>
-
+        
           <p>
             Check out some of the most popular events coming up in your city,
             from club nights,gigs to artist signings.
           </p>
+
           <button className="browse-button">Browse Events</button>
         </div>
 

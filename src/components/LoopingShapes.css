@@ -4,12 +4,13 @@
   justify-content: center;
   gap: 1.5rem;
   background-color: rgb(229, 151, 40);
-  border-radius: 999px;
+  border-radius: 22px;
   padding: 12px 42px;
   margin: 5rem auto 6rem auto;
   max-width: 90%;
   width: fit-content;
   flex-wrap: wrap;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .word {
@@ -20,6 +21,7 @@
   -webkit-text-stroke: 2.2px #fff;
   text-transform: uppercase;
   white-space: nowrap;
+  text-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* 🔽 Responsive for tablets & below */

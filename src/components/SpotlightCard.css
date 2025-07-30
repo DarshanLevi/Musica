@@ -1,6 +1,6 @@
 .card-spotlight {
-  position: relative;
-  border-radius: 1.5rem;
+  /* position: relative;
+  border-radius: 30px;
   overflow: hidden;
   --mouse-x: 50%;
   --mouse-y: 50%;
@@ -8,8 +8,9 @@
   width: 100%;
   max-width: 400px;
   height: auto;
-  display: block;
-  transition: transform 0.3s ease;
+  display: block; */
+  transition: transform 0.5s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
 }
 
 .card-spotlight::before {
@@ -28,6 +29,7 @@
   transition: opacity 0.5s ease;
   pointer-events: none;
   z-index: 1;
+  
 }
 
 .card-spotlight:hover::before,

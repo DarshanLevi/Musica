@@ -1,7 +1,48 @@
-/* whole body  */
+
 body {
-  background-color: #ffffff;
-  /* padding-left: 0.1rem;
-  padding-right: 0.1rem; */
+  margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.img-wrapper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* .video-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: fill;
+  z-index: -1;
+}
+
+
+.video-overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.other-wrap {
+  background-color: rgba(255, 255, 255, 0.961);
+}
+
+@media (prefers-color-scheme: dark) {
+  .bg-video {
+    filter: none !important;
+    mix-blend-mode: normal;
+    background-color: transparent;
+  }
+} */

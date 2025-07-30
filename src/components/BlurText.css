@@ -17,20 +17,20 @@
 }
 
 .blur-text {
-  color: #000000;
+  color: #e0e0e0;
   font-size: 64px;
   font-weight: 800;
   margin: 0;
-  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  -webkit-text-stroke: 3px #e0e0e0;
 }
 
 .blur-text-color {
-  color: rgb(81, 81, 81);
+  color: rgb(155, 155, 155);
   font-size: 74px;
   font-weight: 800;
   padding-top: 2px;
   margin: 0;
-  -webkit-text-stroke: 3px rgb(81, 81, 81);
+  -webkit-text-stroke: 3px rgb(155, 155, 155);
 }
 
 /* Responsive Styles */
@@ -41,13 +41,15 @@
   }
 
   .blur-text {
+    color: #e0e0e0;
     font-size: 48px;
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    -webkit-text-stroke: 3px #e0e0e0;
   }
 
   .blur-text-color {
+    color: rgb(155, 155, 155);
     font-size: 56px;
-    -webkit-text-stroke: 2px rgb(81, 81, 81);
+    -webkit-text-stroke: 3px rgb(155, 155, 155);
   }
 }
 
@@ -58,13 +60,15 @@
   }
 
   .blur-text {
+    color: #e0e0e0;
     font-size: 36px;
-    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    -webkit-text-stroke: 3px #e0e0e0;
   }
 
   .blur-text-color {
+    color: rgb(155, 155, 155);
     font-size: 46px;
-    -webkit-text-stroke: 1.5px rgb(81, 81, 81);
+    -webkit-text-stroke: 3px rgb(155, 155, 155);
   }
 }
 
@@ -76,11 +80,11 @@
 
   .blur-text {
     font-size: 28px;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(20, 20, 20);
   }
 
   .blur-text-color {
     font-size: 36px;
-    -webkit-text-stroke: 1px rgb(81, 81, 81);
+    -webkit-text-stroke: 1px rgb(98, 98, 98);
   }
 }

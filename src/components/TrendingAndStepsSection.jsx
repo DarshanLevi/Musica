@@ -7,6 +7,7 @@ import LoopingShapes from "./LoopingShapes";
 import FadeContent from "./FadeContent";
 import CountUp from "./CountUp";
 import ScrambledText from "./ScrambledText";
+import Magnet from "./Magnet";
 
 import SpotlightCard from './SpotlightCard';
 import DetailCard1 from "../assets/chrisna.jpg";
@@ -54,7 +55,10 @@ const TrendingAndStepsSection = () => {
             from club nights,gigs to artist signings.
           </p>
 
-          <button className="browse-button">Browse Events</button>
+          
+          <Magnet padding={80} disabled={false} magnetStrength={3}>
+              <button className="browse-button">Browse Events</button>
+            </Magnet>
         </div>
 
         <AutoplayCarousel items={items} />

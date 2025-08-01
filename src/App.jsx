@@ -13,6 +13,7 @@ function App() {
         <HeroSection />
       </div>
 
+
       <div className="glass-wrap">
         <TrendingAndStepsSection />
         <Footer />

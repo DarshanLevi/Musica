@@ -3,6 +3,7 @@ import "./Navbar.css";
 import musicaLogo from "../assets/Musica.svg";
 import ClickSpark from "./ClickSpark";
 import { FiMenu, FiX } from "react-icons/fi";
+import Magnet from "./Magnet";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,7 +39,9 @@ const Navbar = () => {
             <a href="#login">Log In</a>
           </li>
           <li>
-            <button className="get-app-button">Get App</button>
+            <Magnet padding={140} disabled={false} magnetStrength={7}>
+              <button className="get-app-button">Get App</button>
+            </Magnet>
           </li>
         </ul>
       </nav>

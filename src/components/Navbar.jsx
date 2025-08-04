@@ -12,16 +12,18 @@ const Navbar = () => {
 
   return (
     <ClickSpark
-      sparkColor="rgb(229, 151, 40)"
-      sparkSize={10}
+      sparkColor="rgba(229, 150, 40, 0.45)"
+      sparkSize={5}
       sparkRadius={15}
-      sparkCount={8}
+      sparkCount={40}
       duration={300}
     >
       <nav className="navbar">
         <div className="nav-wrap">
+          <a href="/" className="logo-link">
           <img src={musicaLogo} alt="MUSICA Logo" className="logo-img" />
           <div className="navbar-logo">MUSICA</div>
+          </a>
         </div>
 
         <button className="hamburger" onClick={toggleMenu}>

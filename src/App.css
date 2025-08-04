@@ -4,28 +4,28 @@ html {
 
 @font-face {
   font-family: "pafigo";
-  src: url("../public/Dh-Pafigo.otf") format("truetype");
+  src: url("/Dh-Pafigo.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "taki";
-  src: url("../public/Takisumo.otf") format("truetype");
+  src: url("/Takisumo.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "geom";
-  src: url("../public/Geom-ExtraBold.ttf") format("truetype");
+  src: url("/Geom-ExtraBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "geom-r";
-  src: url("../public/Geom-Regular.otf") format("truetype");
+  src: url("/Geom-Regular.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -43,6 +43,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/* .glass-wrap{
+ 
+} */
 
 @media (max-width: 1024px) {
   .img-wrapper {

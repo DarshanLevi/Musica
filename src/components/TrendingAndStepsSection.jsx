@@ -18,10 +18,10 @@ import DetailCard4 from "../assets/live-music.png";
 const TrendingAndStepsSection = () => {
   return (
     <ClickSpark
-      sparkColor="rgb(229, 151, 40)"
-      sparkSize={10}
+      sparkColor="rgba(229, 150, 40, 0.45)"
+      sparkSize={5}
       sparkRadius={15}
-      sparkCount={12}
+      sparkCount={40}
       duration={300}
     >
       <section className="body-section">
@@ -52,7 +52,7 @@ const TrendingAndStepsSection = () => {
 
           <p>
             Check out some of the most popular events coming up in your city,
-            from club nights,gigs to artist signings.
+            from club nights, gigs to artist signings.
           </p>
 
           <Magnet padding={80} disabled={false} magnetStrength={3}>
@@ -73,7 +73,7 @@ const TrendingAndStepsSection = () => {
               initialOpacity={0}
             >
               <div className="fade-item">
-                Shows booked through Musica{" "}
+                Successfully booked shows through Musica{" "}
                 <div className="plus-wrap">
                   <CountUp
                     from={0}
@@ -152,7 +152,12 @@ const TrendingAndStepsSection = () => {
                 <h3>Feel the Crowd</h3>
                 <p>
                   Experience electrifying concerts with thousands singing in
-                  unison under one sky.
+                  unison under one sky Feel the bass in your chest, the lights
+                  in your eyes, and the crowd moving as one - it's more than a
+                  concert, it's a moment you'll never forget. <br />
+                  <br />
+                  From stadium anthems to intimate acoustic sets, find your next
+                  unforgettable night.
                 </p>
               </ScrambledText>
             </div>
@@ -169,7 +174,11 @@ const TrendingAndStepsSection = () => {
                 <h3>Book Effortlessly</h3>
                 <p>
                   Get tickets in seconds with our streamlined, mobile-first
-                  booking system.
+                  booking system. No lag, no loading screens - just a few taps
+                  and you're in. Optimized for on-the-go fans who live for live
+                  music. <br />
+                  <br /> Skip the lines and last-minute stress - we make booking
+                  as fast as the beat drops.
                 </p>
               </ScrambledText>
             </div>
@@ -198,7 +207,10 @@ const TrendingAndStepsSection = () => {
                 <h3>Artists You Love</h3>
                 <p>
                   From indie vibes to chart-toppers, find events that match your
-                  music taste.
+                  music taste. Browse by mood, genre, or location - we've got
+                  everything from underground gigs to sold-out arenas. <br />
+                  <br /> Discover rising stars before they blow up - or grab
+                  front-row seats to your favorite headliner.
                 </p>
               </ScrambledText>
             </div>
@@ -214,7 +226,11 @@ const TrendingAndStepsSection = () => {
               >
                 <h3>Transparent Pricing</h3>
                 <p>
-                  See the final price upfront — no surprise fees at checkout.
+                  See the final price upfront - no surprise fees at checkout.
+                  What you see is what you pay - no shady service charges or
+                  hidden extras. <br />
+                  <br /> Budget better, book smarter - because the only shock
+                  you should get is from the encore.
                 </p>
               </ScrambledText>
             </div>

@@ -14,10 +14,10 @@ const HeroSection = () => {
   return (
     <>
       <ClickSpark
-        sparkColor="rgb(229, 151, 40)"
-        sparkSize={10}
+        sparkColor="rgba(229, 150, 40, 0.45)"
+        sparkSize={5}
         sparkRadius={15}
-        sparkCount={8}
+        sparkCount={40}
         duration={300}
       >
         <section className="hero">

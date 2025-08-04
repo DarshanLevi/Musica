@@ -2,7 +2,7 @@ import CarouselItem from "./CarouselItem";
 import "./AutoplayCarousel.css";
 
 const AutoplayCarousel = ({ items }) => {
-  // Duplicate items for seamless scroll loop
+
   const allItems = [...items, ...items];
 
   return (

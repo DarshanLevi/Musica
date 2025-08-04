@@ -14,14 +14,11 @@
 }
 
 .word {
-  display: inline-block;
+  display: flex;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 800;
   color: #fff;
-  -webkit-text-stroke: 2.2px #fff;
-  text-transform: uppercase;
-  white-space: nowrap;
-  text-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 8px 20px rgba(0, 0, 0, 0.527);
 }
 
 /* 🔽 Responsive for tablets & below */

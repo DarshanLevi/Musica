@@ -7,7 +7,7 @@ import TiltedCard from "./TiltedCard";
 import Magnet from "./Magnet";
 
 const handleAnimationComplete = () => {
-  console.log("Animation completed!");
+  console.log("Animation completed");
 };
 
 const HeroSection = () => {

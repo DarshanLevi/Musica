@@ -100,23 +100,25 @@ const HeroSection = () => {
               <button className="hero-button">Get App</button>
             </Magnet>
           </div>
+        <div className="anima-card1"> 
         <Magnet padding={70} disabled={false} magnetStrength={25}>
           <TiltedCard
             imageSrc={concertImage}
             altText="CUGAI - GNX Album Cover"
             captionText="OSAI - Cugai"
             containerHeight="300px"
-            containerWidth="280px"
+            containerWidth="240px"
             imageHeight="320px"
             // imageWidth="285px"
-            rotateAmplitude={22}
-            scaleOnHover={1.2}
+            rotateAmplitude={15}
+            scaleOnHover={1.1}
             showMobileWarning={false}
             showTooltip={false}
             displayOverlayContent={true}
             overlayContent={<p className="tilted-card-demo-text"></p>}
           />
           </Magnet>
+          </div>
           
           <Magnet padding={70} disabled={false} magnetStrength={25}>
           <TiltedCard
@@ -124,17 +126,19 @@ const HeroSection = () => {
             altText="Musico - ORG Album Cover"
             captionText="MUSICO - NRG"
             containerHeight="300px"
-            containerWidth="280px"
+            containerWidth="240px"
             imageHeight="380px"
             // imageWidth="285px"
-            rotateAmplitude={22}
-            scaleOnHover={1.2}
-            showMobileWarning={false}
+            rotateAmplitude={15}
+            scaleOnHover={1.1}
+            showMobileWarning={true}
             showTooltip={false}
             displayOverlayContent={true}
             overlayContent={<p className="tilted-card-demo-text"></p>}
           />
           </Magnet>
+          
+
         </section>
       </ClickSpark>
     </>

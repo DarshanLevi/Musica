@@ -2,20 +2,56 @@ html {
   scroll-behavior: smooth;
 }
 
-  body {
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+@font-face {
+  font-family: "pafigo";
+  src: url("../public/Dh-Pafigo.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "taki";
+  src: url("../public/Takisumo.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "geom";
+  src: url("../public/Geom-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "geom-r";
+  src: url("../public/Geom-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 
+body {
+  margin: 0;
+  font-family: geom-r, Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+.img-wrapper {
+  background: url("/src/assets/background/vinyl.jpg") center 0px;
+  background-size: 115rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 1024px) {
   .img-wrapper {
-    background-size: cover;
-    background-position: center;
+    background: url("/src/assets/background/vinyl.jpg") center -300px;
+    background-size: 135rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: url('/src/assets/background/vinyl.jpg') no-repeat center center fixed;
-    background-size: cover;
   }
+}
 
 /* .glass-wrap {
   background: rgba(255, 255, 255, 0.159); 
@@ -34,9 +70,7 @@ html {
   }
 } */
 
-
-  
-  /* .video-wrapper {
+/* .video-wrapper {
     position: relative;
     width: 100%;
     min-height: 100vh;

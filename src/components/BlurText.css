@@ -1,9 +1,9 @@
+
 .app-wrapper {
   display: flex;
   flex-direction: column;
   margin-right: 60px;
-  line-height: 3.7rem;
-  letter-spacing: -1px;
+  line-height: 60px;
 }
 
 .blur-wrapper {
@@ -17,20 +17,22 @@
 }
 
 .blur-text {
-  color: #e0e0e0;
-  font-size: 64px;
-  font-weight: 800;
+  font-family: pafigo;
+  color: #ffffff;
+  font-size: 5rem;
+  font-weight: bold;
   margin: 0;
-  -webkit-text-stroke: 3px #e0e0e0;
+  /* -webkit-text-stroke: 3px #000000; */
 }
 
 .blur-text-color {
-  color: rgb(155, 155, 155);
-  font-size: 74px;
+  font-family: pafigo;
+  color: rgb(229, 151, 40);
+  font-size: 104px;
   font-weight: 800;
   padding-top: 2px;
   margin: 0;
-  -webkit-text-stroke: 3px rgb(155, 155, 155);
+  /* -webkit-text-stroke: 3px rgb(155, 155, 155); */
 }
 
 /* Responsive Styles */
@@ -41,15 +43,15 @@
   }
 
   .blur-text {
-    color: #e0e0e0;
+
     font-size: 48px;
-    -webkit-text-stroke: 3px #e0e0e0;
+
   }
 
   .blur-text-color {
-    color: rgb(155, 155, 155);
+
     font-size: 56px;
-    -webkit-text-stroke: 3px rgb(155, 155, 155);
+
   }
 }
 
@@ -60,15 +62,15 @@
   }
 
   .blur-text {
-    color: #e0e0e0;
+
     font-size: 36px;
-    -webkit-text-stroke: 2px #e0e0e0;
+  
   }
 
   .blur-text-color {
-    color: rgb(155, 155, 155);
+   
     font-size: 46px;
-    -webkit-text-stroke: 2px rgb(155, 155, 155);
+  
   }
 }
 
@@ -81,11 +83,11 @@
   .blur-text {
     
     font-size: 28px;
-    -webkit-text-stroke: 2px #e0e0e0;
+
   }
 
   .blur-text-color {
     font-size: 36px;
-    -webkit-text-stroke: 2px rgb(155, 155, 155);
+
   }
 }

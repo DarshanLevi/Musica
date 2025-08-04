@@ -9,7 +9,7 @@ import CountUp from "./CountUp";
 import ScrambledText from "./ScrambledText";
 import Magnet from "./Magnet";
 
-import SpotlightCard from './SpotlightCard';
+import SpotlightCard from "./SpotlightCard";
 import DetailCard1 from "../assets/chrisna.jpg";
 import DetailCard2 from "../assets/venue-music.png";
 import DetailCard3 from "../assets/zisha.jpg";
@@ -49,97 +49,98 @@ const TrendingAndStepsSection = () => {
               />
             </div>
           </div>
-        
+
           <p>
             Check out some of the most popular events coming up in your city,
             from club nights,gigs to artist signings.
           </p>
 
-          
           <Magnet padding={80} disabled={false} magnetStrength={3}>
-              <button className="browse-button">Browse Events</button>
-            </Magnet>
+            <button className="browse-button">Browse Events</button>
+          </Magnet>
         </div>
 
         <AutoplayCarousel items={items} />
-        <LoopingShapes />
 
-        {/* <div className="steps-section">
-          <h2>EASY WAY TO BOOK A VIBE</h2>
-        </div> */}
+        <div className="page-colour">
+          <LoopingShapes />
 
-        <div className="fadeItem-wrap">
-          <FadeContent
-            blur={true}
-            duration={1000}
-            easing="ease-out"
-            initialOpacity={0}
-          >
-            <div className="fade-item">
-              Shows booked through Musica{" "}
-              <div className="plus-wrap">
-                <CountUp
-                  from={0}
-                  to={100}
-                  separator=","
-                  direction="up"
-                  duration={2}
-                  className="count-up-text"
-                />
-                <p className="plus">+</p>
+          <div className="fadeItem-wrap">
+            <FadeContent
+              blur={true}
+              duration={1000}
+              easing="ease-out"
+              initialOpacity={0}
+            >
+              <div className="fade-item">
+                Shows booked through Musica{" "}
+                <div className="plus-wrap">
+                  <CountUp
+                    from={0}
+                    to={100}
+                    separator=","
+                    direction="up"
+                    duration={2}
+                    className="count-up-text"
+                  />
+                  <p className="plus">+</p>
+                </div>
               </div>
-            </div>
-          </FadeContent>
+            </FadeContent>
 
-          <FadeContent
-            blur={true}
-            duration={1000}
-            easing="ease-out"
-            initialOpacity={0}
-          >
-            <div className="fade-item">
-              Users enjoying upfront, no-surprise pricing{" "}
-              <div className="plus-wrap">
-                <CountUp
-                  from={1000}
-                  to={5000}
-                  separator=","
-                  direction="up"
-                  duration={1}
-                  className="count-up-text"
-                />
-                <p className="plus">+</p>
+            <FadeContent
+              blur={true}
+              duration={1000}
+              easing="ease-out"
+              initialOpacity={0}
+            >
+              <div className="fade-item">
+                Users enjoying upfront, no-surprise pricing{" "}
+                <div className="plus-wrap">
+                  <CountUp
+                    from={1000}
+                    to={5000}
+                    separator=","
+                    direction="up"
+                    duration={1}
+                    className="count-up-text"
+                  />
+                  <p className="plus">+</p>
+                </div>
               </div>
-            </div>
-          </FadeContent>
+            </FadeContent>
 
-          <FadeContent
-            blur={true}
-            duration={1000}
-            easing="ease-out"
-            initialOpacity={0}
-          >
-            <div className="fade-item">
-              Personalized concerts recommended daily{" "}
-              <div className="plus-wrap">
-                <CountUp
-                  from={120}
-                  to={1200}
-                  separator=","
-                  direction="up"
-                  duration={1}
-                  className="count-up-text"
-                />
-                <p className="plus">+</p>
+            <FadeContent
+              blur={true}
+              duration={1000}
+              easing="ease-out"
+              initialOpacity={0}
+            >
+              <div className="fade-item">
+                Personalized concerts recommended daily{" "}
+                <div className="plus-wrap">
+                  <CountUp
+                    from={120}
+                    to={1200}
+                    separator=","
+                    direction="up"
+                    duration={1}
+                    className="count-up-text"
+                  />
+                  <p className="plus">+</p>
+                </div>
               </div>
-            </div>
-          </FadeContent>
+            </FadeContent>
+          </div>
         </div>
 
         <div className="alternating-sections">
           <div className="alt-section">
-            <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.59)">
-            <img src={DetailCard1} alt="Concert Crowd" className="alt-img" />
+            <SpotlightCard
+              className="custom-spotlight-card"
+              spotlightColor="rgba(255, 255, 255, 0.59)"
+            >
+              <img src={DetailCard1} alt="Concert Crowd" className="alt-img" />
             </SpotlightCard>
             <div className="alt-text">
               <ScrambledText
@@ -172,14 +173,20 @@ const TrendingAndStepsSection = () => {
                 </p>
               </ScrambledText>
             </div>
-            <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.59)">
-            <img src={DetailCard2} alt="Booking App" className="alt-img" />
+            <SpotlightCard
+              className="custom-spotlight-card"
+              spotlightColor="rgba(255, 255, 255, 0.59)"
+            >
+              <img src={DetailCard2} alt="Booking App" className="alt-img" />
             </SpotlightCard>
           </div>
 
           <div className="alt-section">
-            <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.59)">
-            <img src={DetailCard3} alt="Music Artists" className="alt-img" />
+            <SpotlightCard
+              className="custom-spotlight-card"
+              spotlightColor="rgba(255, 255, 255, 0.59)"
+            >
+              <img src={DetailCard3} alt="Music Artists" className="alt-img" />
             </SpotlightCard>
             <div className="alt-text">
               <ScrambledText
@@ -211,8 +218,11 @@ const TrendingAndStepsSection = () => {
                 </p>
               </ScrambledText>
             </div>
-            <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.59)">
-            <img src={DetailCard4} alt="Pricing" className="alt-img" />
+            <SpotlightCard
+              className="custom-spotlight-card"
+              spotlightColor="rgba(255, 255, 255, 0.59)"
+            >
+              <img src={DetailCard4} alt="Pricing" className="alt-img" />
             </SpotlightCard>
           </div>
         </div>

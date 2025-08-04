@@ -16,9 +16,9 @@
 }
 
 .navbar-logo {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
-  color: #969696;
+  color: #ffffff;
 }
 
 .nav-wrap {
@@ -39,7 +39,7 @@
 
 .navbar-links li a {
   text-decoration: none;
-  color: #b2b2b2;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.2s;
 }
@@ -76,9 +76,19 @@
   .navbar {
     padding: 20px;
   }
+  .logo-img {
+  width: 29px;
+  height: 29px;
+}
+  .navbar-logo {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
 
   .hamburger {
     display: block;
+    color: #ffffff;
   }
 
   .navbar-links {
@@ -86,7 +96,7 @@
     top: 70px;
     right: 20px;
     flex-direction: column;
-    background: white;
+    background: rgba(255, 255, 255, 0.164);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);

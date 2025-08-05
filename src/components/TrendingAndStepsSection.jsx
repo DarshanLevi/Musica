@@ -138,7 +138,7 @@ const TrendingAndStepsSection = () => {
           <div className="alt-section">
             <SpotlightCard
               className="custom-spotlight-card"
-              spotlightColor="rgba(255, 255, 255, 0.63)"
+              spotlightColor="rgba(255, 255, 255, 0.59)"
             >
               <img src={DetailCard1} alt="Concert Crowd" className="alt-img" />
             </SpotlightCard>

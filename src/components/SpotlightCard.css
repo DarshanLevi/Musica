@@ -37,14 +37,14 @@
   opacity: 0.6;
 }
 
-/* Optional hover lift on desktop */
+
 @media (hover: hover) {
   .card-spotlight:hover {
     transform: scale(1.02);
   }
 }
 
-/* Tablet & below */
+
 @media (max-width: 768px) {
   .card-spotlight {
     max-width: 100%;
@@ -52,7 +52,6 @@
   }
 }
 
-/* Ultra Mobile (250px–300px) */
 @media (max-width: 300px) {
   .card-spotlight {
     border-radius: 0.75rem;
